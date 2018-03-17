@@ -6,6 +6,13 @@
 <body>
 	<h1>Register Below</h1>
 	<form action="registerAction.php" method="post">
+		Account Info<br><br>
+		Email:<br>
+		<input type="text" name="email"><br>
+		Password<br>
+		<input type="password" name="password"><br>
+		<hr />
+		Personal Info<br><br>
 		First name:<br>
 		<input type="text" name="first"><br>
 		Last name:<br>
@@ -21,6 +28,8 @@
 		<input type="text" name="city"><br>
 		Street Address:<br>
 		<input type="text" name="streetAddress"><br>
+		Bio:<br>
+		<input type="textarea" name="bio"><br>
 		<input type="submit">
 	</form>
 </body>

@@ -4,12 +4,12 @@ $username = "web";
 $password = "webpassword";
 $dbname = "foodme";
 
-$first = $last = $state = $city = $streetAddress = "";
+$email = $userPassword = $retrievedPassword = "";
 
 // Get post values
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $first = test_input($_POST["email"]);
-  $last = test_input($_POST["password"]);
+  $email = test_input($_POST["email"]);
+  $userPassword = test_input($_POST["password"]);
 }
 
 function test_input($data) {
@@ -26,13 +26,21 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO users (FirstName, LastName, Country, State, City, StreetAddress)
-VALUES ('$first', '$last', 'US', '$state', '$city', '$streetAddress')";
+$sql = "SELECT Password FROM users WHERE email = '$email';";
+$result = "";
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+if ($result = $conn->query($sql)) {
+    $row = $result->fetch_assoc();
+    $retrievedPassword = $row["Password"];
+    if($retrievedPassword == $userPassword) {
+      echo "LOGGED IN <br>";
+    } else {
+      echo "wrong password" . $retrievedPassword . "<br>";
+    }
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo $email . "<br>";
+    echo "Error: " . $sql . "<br>" . $conn->error . "<br>";
+    echo $result . "<br>";
 }
 
 $conn->close();
