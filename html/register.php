@@ -7,18 +7,18 @@
 	<h1>Register Below</h1>
 	<form action="registerAction.php">
 		First name:<br>
-		<input type="text" name="first">
+		<input type="text" name="first"><br>
 		Last name:<br>
-		<input type="text" name="last">
-		State:
-		<select name="state">
+		<input type="text" name="last"><br>
+		State:<br>
+		<select name="state"><br>
   			<option value="NC">NC</option>
   			<option value="SC">SC</option>
   			<option value="VA">VA</option>
   			<option value="TN">TN</option>
-		</select>
-		<input type="text" name="city">
-		<input type="text" name="streetAddress">
+		</select><br>
+		<input type="text" name="city"><br>
+		<input type="text" name="streetAddress"><br>
 	</form>
 </body>
 </html>
