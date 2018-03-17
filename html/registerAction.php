@@ -32,7 +32,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO users (Email, FirstName, LastName, Country, State, City, StreetAddress, Bio, Password)
+$sql = "INSERT INTO users (email, FirstName, LastName, Country, State, City, StreetAddress, Bio, Password)
 VALUES ('$email', '$first', '$last', 'US', '$state', '$city', '$streetAddress', '$bio', '$userPassword')";
 
 if ($conn->query($sql) === TRUE) {
