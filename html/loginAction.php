@@ -8,11 +8,8 @@ $first = $last = $state = $city = $streetAddress = "";
 
 // Get post values
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $first = test_input($_POST["first"]);
-  $last = test_input($_POST["last"]);
-  $state = test_input($_POST["state"]);
-  $city = test_input($_POST["city"]);
-  $streetAddress = test_input($_POST["streetAddress"]);
+  $first = test_input($_POST["email"]);
+  $last = test_input($_POST["password"]);
 }
 
 function test_input($data) {
