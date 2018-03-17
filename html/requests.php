@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>FoodMe - account</title>
-</head>
+<title>FoodMe - Requests</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 	<?php
 		$servername = "localhost";
@@ -19,7 +20,7 @@
 
 		//get session userID
 		session_start();
-		if (!$userID = $_SESSION["userid"]) {
+		if (!$userID = $_SESSION["userID"]) {
 			echo "not logged in";
 		} else {
 			$sql = "SELECT * FROM requests JOIN users ON requests.userID=users.ID;";
@@ -37,7 +38,7 @@
 				    $fname = $row["FirstName"];
 				    $lname = $row["LastName"];
 
-				    echo "<a href=requestDetails.php?rid=$rid>"
+				    echo "<a href=requestDetails.php?rid=$rid>";
 				    echo "<div style='border:solid black; margin: auto; width:60%;'>";
 				    echo "<h1>$title by $fname $lname</h1><br>";
 				    echo "<p>$description</p><br>";
