@@ -26,16 +26,25 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT Password FROM users WHERE email = '$email';";
+$sql = "SELECT Password,ID FROM users WHERE email = '$email';";
 $result = "";
 
 if ($result = $conn->query($sql)) {
     $row = $result->fetch_assoc();
+    //get values out of result
     $retrievedPassword = $row["Password"];
+    $userID = $row["ID"];
+    //Successfull log in
     if($retrievedPassword == $userPassword) {
       echo "LOGGED IN <br>";
+      //start the session to store user ID
+      session_start();
+      $_SESSION["userid"] = $userID;
+      echo "UserID" . $_SESSION["userid"] . ".<br>";
+      header("Location: account.php");
     } else {
-      echo "wrong password" . $retrievedPassword . "<br>";
+      echo "<script type='text/javascript'>alert(\"WRONG PASSWORD\");</script>";
+      header("Location: login.php");
     }
 } else {
     echo $email . "<br>";
