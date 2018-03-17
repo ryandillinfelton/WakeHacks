@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/custom.css">
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -17,7 +18,7 @@
 		<a href="#contact" class="w3-bar-item w3-button">Contact</a>
 		<div class="w3-right w3-hide-small">
 			<a href="#login" class="w3-bar-item w3-button">Log In</a>
-			<a href="#sign up" class="w3-bar-item w3-button">Sign Up</a>
+			<a href="register.php" class="w3-bar-item w3-button">Sign Up</a>
     </div>
   </div>
 </div>
@@ -25,8 +26,8 @@
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="./images/homepage.png" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <p class="w3-hide-xsmall w3-text-white"><span><b></b></span> <span class="w3-small w3-text-light-purple">Our mission is to help those in need of a nicer meal. Our distributed approach allows those in need to recieve help more quickly and without intervention. Please consider Volunteering some of your time to help another person.</span></p>
+  <div class="w3-display-bottommiddle">
+    <p class="w3-hide-xsmall w3-text-white"> <span class="w3-small w3-text-light-purple">Our mission is to help those in need of a nicer meal. Our distributed approach allows those in need to recieve help more quickly and without intervention. Please consider Volunteering some of your time to help another person.</span></p>
   </div>
 </header>
 
@@ -37,8 +38,39 @@
   <div class="w3-container w3-padding-32" id="community">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Community</h3>
   </div>
+	<div class="w3-container w3-padding-32" id="login">
+		<form action="action_page.php">
+		  <div class="imgcontainer">
+		    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+		  </div>
 
-  <div class="w3-row-padding">
+		  <div class="container">
+		    <label for="uname"><b>Username</b></label>
+		    <input type="text" placeholder="Enter Username" name="uname" required>
+
+		    <label for="psw"><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" name="psw" required>
+
+		    <button type="submit">Login</button>
+		    <label>
+		      <input type="checkbox" checked="checked" name="remember"> Remember me
+		    </label>
+		  </div>
+
+		  <div class="container" style="background-color:#f1f1f1">
+		    <button type="button" class="cancelbtn">Cancel</button>
+		    <span class="psw">Forgot <a href="#">password?</a></span>
+		  </div>
+		</form>
+	</div>
+
+
+
+	<div class="w3-container w3-padding-32" id="signup">
+		<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Community</h3>
+	</div>
+
+  <!-- <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
@@ -90,12 +122,12 @@
         <img src="/w3images/house3.jpg" alt="House" style="width:99%">
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p><br>
+    <p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
       laboris nisi ut aliquip ex ea commodo consequat.
@@ -105,7 +137,7 @@
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
+      <h3>Julia Debecka</h3>
       <p class="w3-opacity">CEO & Founder</p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
