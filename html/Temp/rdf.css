@@ -1,0 +1,224 @@
+html {
+  overflow-y: scroll; }
+
+a {
+  color: #212121;
+  text-decoration: none; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 1.1em;
+  background-color: #BDBDBD; }
+
+#topGrid {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap; }
+
+#cardGrid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+#self-container {
+  text-align: center;
+  background: #FF5722;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap; }
+
+#self-profile {
+  flex: 1 1 33%; }
+
+#self-summary {
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex: 1 1 66%;
+  align-self: left; }
+
+#self-summary h2 {
+  text-align: left;
+  color: #FFFFFF; }
+
+#self-summary p {
+  text-align: left;
+  color: #FFFFFF; }
+
+.contact-info {
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  float: left;
+  display: inline;
+  /*color: $text-primary-color);
+  text-align: left;*/ }
+  .contact-info svg {
+    display: inline;
+    vertical-align: middle; }
+  .contact-info img {
+    display: inline;
+    vertical-align: middle; }
+  .contact-info p {
+    margin-top: .4em; }
+
+#phone {
+  flex: 1 1 20%; }
+
+#email {
+  flex: 1 1 20%; }
+
+#linkedin {
+  flex: 1 1 20%; }
+
+.card {
+  color: #212121;
+  align-self: center;
+  text-align: center;
+  background: #FFFFFF;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  box-shadow: 7px 7px 3px #888888;
+  padding-left: 2%;
+  padding-right: 2%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+  .card p {
+    color: #757575;
+    font-family: arial;
+    text-align: left;
+    width: auto; }
+  .card:hover {
+    box-shadow: 11px 11px 3px #888888; }
+
+.skill-card {
+  flex: 1 1 20%;
+  margin: 1em 2% 1em 2%;
+  height: 18em; }
+
+#center {
+  display: none;
+  width: 0%;
+  height: 0%;
+  color: #212121;
+  align-self: center;
+  text-align: center;
+  background: #FFFFFF;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  box-shadow: 7px 7px 3px #888888;
+  padding-left: 5%;
+  padding-right: 5%;
+  overflow: hidden; }
+  #center.opened {
+    animation-name: openAnim;
+    animation-duration: 0.5s;
+    width: 67%;
+    height: 14em;
+    display: block; }
+  #center.close {
+    animation-name: closeAnim;
+    animation-duration: .5s; }
+  #center #centerContent {
+    opacity: 0;
+    display: flex;
+    flex-direction: row; }
+    #center #centerContent .content {
+      flex: 1 1 45%;
+      margin-right: 5%;
+      text-align: left; }
+    #center #centerContent .image-container {
+      flex: 1 1 40%; }
+      #center #centerContent .image-container img {
+        width: 100%;
+        vertical-align: center; }
+    #center #centerContent.openedp {
+      animation-name: fadeIn;
+      animation-duration: 2s;
+      opacity: 100;
+      font-size: 18px; }
+
+@keyframes openAnim {
+  from {
+    display: none;
+    width: 30%;
+    height: 0px;
+    opacity: 0;
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em; }
+  to {
+    display: block;
+    width: 67%;
+    height: 14em;
+    opacity: 100;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em; } }
+@keyframes closeAnim {
+  from {
+    display: block;
+    width: 60%;
+    height: 250px;
+    opacity: 100;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  to {
+    display: none;
+    width: 0%;
+    height: 0px;
+    opacity: 0;
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 0em; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }
+.drop-shadow {
+  box-shadow: 7px 7px 3px #888888; }
+
+.image-cropper {
+  border-style: solid;
+  border-width: 0.3em;
+  border-color: #E64A19;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%; }
+
+.image-cropper img {
+  display: inline;
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  height: 150%;
+  width: auto; }
+
+/*# sourceMappingURL=rdf.css.map */

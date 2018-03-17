@@ -1,0 +1,279 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>DitchUrShit</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/CampusConnectLogo.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <!-- Wide card with share menu button -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-deep_purple.min.css" />
+    <link rel="stylesheet" href="static/styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+    <!-- Wide card with share menu button -->
+   <style>
+   .item-card-wide.mdl-card {
+     width: 512px;
+   }
+   .item-card-wide > .mdl-card__title {
+     color: #fff;
+     height: 176px;
+   }
+   .item-card-wide > .mdl-card__menu {
+     color: #fff;
+   }
+   </style>
+  </head>
+  <body>
+
+
+     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <!-- Top row, always visible -->
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+
+            <h1>CampusConnect</h1>
+
+            <div class="mdl-layout-spacer"></div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                        mdl-textfield--floating-label mdl-textfield--align-right">
+              <label class="mdl-button mdl-js-button mdl-button--icon"
+                     for="waterfall-exp">
+                <i class="material-icons">search</i>
+              </label>
+              <div class="mdl-textfield__expandable-holder">
+                <input class="mdl-textfield__input" type="text" name="sample"
+                       id="waterfall-exp">
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="mdl-layout__drawer">
+          <span class="mdl-layout-title">DitchUrShit</span>
+          <nav class="mdl-navigation">
+             <a class="mdl-navigation__link" href="">About</a>
+             <a class="mdl-navigation__link" href="">Contact</a>
+             <a class="mdl-navigation__link" href="">Legal information</a>
+             <a class="mdl-navigation__link" href="">Login</a>
+          </nav>
+        </div>
+        <main class="mdl-layout__content">
+           <div class="mdl-grid">
+
+              <div class="item-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
+                <div class="mdl-card__title" style="background: url('static/images/ps4.jpg') center / cover;">
+                  <h2 class="mdl-card__title-text">PS4</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  Good condition, my mom is making me sell it because of my grades.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Buy
+                  </a>
+                </div>
+                <div class="mdl-card__menu">
+                  <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons">share</i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="item-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
+                <div class="mdl-card__title" style="background: url('static/images/tickets.JPG') center / cover;">
+                  <h2 class="mdl-card__title-text">Kanye Tickets</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  Two tickets to the kanye concert this thursday in greensboro
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Buy
+                  </a>
+                </div>
+                <div class="mdl-card__menu">
+                  <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons">share</i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="item-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
+                <div class="mdl-card__title" style="background: url('static/images/physics.JPG') center / cover;">
+                  <h2 class="mdl-card__title-text">Physics101</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  This class was the worst, will throw in notes for an extra $5
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Buy
+                  </a>
+                </div>
+                <div class="mdl-card__menu">
+                  <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons">share</i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="item-card-wide mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
+                <div class="mdl-card__title" style="background: url('static/images/yeezys.JPG') center / cover;">
+                  <h2 class="mdl-card__title-text">Yeezy Boost 350</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                  Not worn, in box. Looking for a wavy home to go to.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Buy
+                  </a>
+                </div>
+                <div class="mdl-card__menu">
+                  <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                    <i class="material-icons">share</i>
+                  </button>
+                </div>
+              </div>
+
+           </div>
+           <button id="show-dialog" type="button" class="mdl-button">Show Dialog</button>
+            <dialog class="mdl-dialog">
+              <h4 class="mdl-dialog__title">Allow data collection?</h4>
+              <div class="mdl-dialog__content">
+                <p>
+                  Allowing us to collect data will let us get you the information you want faster.
+                </p>
+              </div>
+              <div class="mdl-dialog__actions">
+                <button type="button" class="mdl-button">Agree</button>
+                <button type="button" class="mdl-button close">Disagree</button>
+              </div>
+            </dialog>
+            <script>
+              var dialog = document.querySelector('dialog');
+              var showDialogButton = document.querySelector('#show-dialog');
+              if (! dialog.showModal) {
+                dialogPolyfill.registerDialog(dialog);
+              }
+              showDialogButton.addEventListener('click', function() {
+                dialog.showModal();
+              });
+              dialog.querySelector('.close').addEventListener('click', function() {
+                dialog.close();
+              });
+            </script>
+           <footer class="mdl-mega-footer">
+             <div class="mdl-mega-footer__middle-section">
+
+                <div class="mdl-mega-footer__drop-down-section">
+                   <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                   <h1 class="mdl-mega-footer__heading">Features</h1>
+                   <ul class="mdl-mega-footer__link-list">
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">Partners</a></li>
+                      <li><a href="#">Updates</a></li>
+                   </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                   <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                   <h1 class="mdl-mega-footer__heading">Details</h1>
+                   <ul class="mdl-mega-footer__link-list">
+                      <li><a href="#">Specs</a></li>
+                      <li><a href="#">Tools</a></li>
+                      <li><a href="#">Resources</a></li>
+                   </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                   <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                   <h1 class="mdl-mega-footer__heading">Technology</h1>
+                   <ul class="mdl-mega-footer__link-list">
+                      <li><a href="#">How it works</a></li>
+                      <li><a href="#">Patterns</a></li>
+                      <li><a href="#">Usage</a></li>
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">Contracts</a></li>
+                   </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                   <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                   <h1 class="mdl-mega-footer__heading">FAQ</h1>
+                   <ul class="mdl-mega-footer__link-list">
+                      <li><a href="#">Questions</a></li>
+                      <li><a href="#">Answers</a></li>
+                      <li><a href="#">Contact us</a></li>
+                   </ul>
+                </div>
+
+             </div>
+
+             <div class="mdl-mega-footer__bottom-section">
+                <div class="mdl-logo">Title</div>
+                <ul class="mdl-mega-footer__link-list">
+                   <li><a href="#">Help</a></li>
+                   <li><a href="#">Privacy & Terms</a></li>
+                </ul>
+             </div>
+
+          </footer>
+        </main>
+      </div>
+
+      <a href="" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">Create Listing</a>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
+

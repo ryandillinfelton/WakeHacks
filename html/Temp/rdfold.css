@@ -1,0 +1,291 @@
+:root {
+  --dark-primary-color: #E64A19;
+  --default-primary-color: #FF5722;
+  --light-primary-color: #FFCCBC;
+  --text-primary-color: #FFFFFF;
+  --accent-color: #9E9E9E;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --divider-color: #BDBDBD;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+  font-size: 1.1em;
+  background-color: var(--divider-color);
+}
+
+#topGrid {
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+#cardGrid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+#self-container {
+  text-align: center;
+  background: var(--default-primary-color);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+#self-profile {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#self-summary {
+  text-align: left;
+  width: 90%;
+  margin-top: auto;
+  margin-bottom: auto;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  align-self: left;
+}
+
+#self-summary h2 {
+  text-align: left;
+  color: var(--text-primary-color);
+}
+
+#self-summary p {
+  text-align: left;
+  color: var(--text-primary-color);
+}
+
+.contact-info {
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  float: left;
+  display: inline;
+  /*color: var(--text-primary-color);
+  text-align: left;*/
+}
+
+.contact-info svg {
+  float: left;
+  display: inline;
+}
+.contact-info img {
+  float: left;
+  display: inline;
+}
+
+.contact-info p {
+  margin-top: .4em;
+}
+
+#phone {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 60%;
+}
+
+#email {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 90%;
+}
+
+#linkedin {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  width: 40%;
+}
+
+.card {
+  color: var(--primary-text-color);
+  align-self: center;
+  text-align: center;
+  background: var(--text-primary-color);
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  box-shadow: 7px 7px 3px #888888;
+  width: 80%;
+  height: 80%;
+  padding-left: 7%;
+  padding-right: 7%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.card p {
+  color: var(--secondary-text-color);
+  font-family: arial;
+  text-align: left;
+}
+
+.card:hover {
+  width: 82%;
+  height: 82%;
+  box-shadow: 10px 10px 3px #888888;
+}
+
+.card.move-down {
+  color: blue;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+/*card positioning*/
+
+#card1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+#card2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+#card3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+#center {
+  display: none;
+  width: 0%;
+  height: 0%;
+  color: var(--primary-text-color);
+  align-self: center;
+  text-align: center;
+  background: var(--text-primary-color);
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  box-shadow: 7px 7px 3px #888888;
+  padding-left: 7%;
+  padding-right: 7%;
+  overflow: hidden;
+}
+
+#center.opened {
+  animation-name: openAnim;
+  animation-duration: 0.5s;
+  width: 60%; 
+  height: 250px;
+  display: block;
+}
+
+#center.close {
+  animation-name: closeAnim;
+  animation-duration: .5s;
+}
+
+#centerContent {
+    opacity: 0;
+}
+
+#centerContent.openedp {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  display: block;
+  opacity: 100;
+  font-size: 18px;
+}
+
+@keyframes openAnim {
+  from {display: none; width: 30%; height: 0px; opacity: 0; margin-top: 0em; padding-top: 0em;
+  padding-bottom: 0em;}
+  to {display: block; width: 60%; height: 250px; opacity: 100; margin-top: 2em; padding-top: 1em;
+  padding-bottom: 1em;}
+}
+
+@keyframes closeAnim {
+  from {display: block; width: 60%; height: 250px; opacity: 100; margin-top: 2em; padding-top: 1em;
+  padding-bottom: 1em;}
+  to {display: none; width: 0%; height: 0px; opacity: 0; margin-top: 0em; padding-top: 0em;
+  padding-bottom: 0em;}
+}
+
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 100;}
+}
+
+.drop-shadow {
+  box-shadow: 7px 7px 3px #888888;
+}
+
+.image-cropper {
+  border-style: solid;
+  border-width: 0.3em;
+  border-color: var(--dark-primary-color);
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.image-cropper img {
+    display: inline;
+    position: absolute;
+    top: -15%;
+    right:-10%;
+    height: 150%;
+    width: auto;
+}

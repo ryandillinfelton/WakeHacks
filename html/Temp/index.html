@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ryan Felton</title>
+	<link rel="stylesheet" type="text/css" href="./rdf.css">
+	<script type="text/javascript" src="rdf.js"></script>
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<meta name="google-site-verification" content="-i5tDRGRqDIYB4Q0StYPsfaRy1_Yh_Uu7ioMKGtlPlw" />
+</head>
+<body>
+	<div id="topGrid">
+		<div id="self-container" class="drop-shadow">
+			<div id="self-profile">
+				<div class="image-cropper">
+    				<img src="http://imgur.com/sWCxrlT.png" class="rounded" />
+				</div>
+			</div>
+			<div id="self-summary">
+				<h2>Ryan D. Felton</h2>
+				<p>
+				I'm a student at High Point University studying computer science and interactive media/game design. I have experience in contracted web development, custom computer assembly, and game development.
+				</p>
+				<br>
+				<p>
+				Note: this site is still in development, please excuse the placeholders and rough edges
+				</p>
+			</div>
+			<div id="phone" class="contact-info">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 48 48"><path d="M13.25 21.59c2.88 5.66 7.51 10.29 13.18 13.17l4.4-4.41c.55-.55 1.34-.71 2.03-.49C35.1 30.6 37.51 31 40 31c1.11 0 2 .89 2 2v7c0 1.11-.89 2-2 2C21.22 42 6 26.78 6 8c0-1.11.9-2 2-2h7c1.11 0 2 .89 2 2 0 2.49.4 4.9 1.14 7.14.22.69.06 1.48-.49 2.03l-4.4 4.42z"/></svg>
+				<a href="tel:1-919-884-6259">(919) 884-6259</a>
+			</div>
+			<div id="email" class="contact-info">
+				<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 48 48"><path d="M40 8H8c-2.21 0-3.98 1.79-3.98 4L4 36c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V12c0-2.21-1.79-4-4-4zm0 8L24 26 8 16v-4l16 10 16-10v4z"/></svg>
+				<a href="mailto:RyanDillinFelton@gmail.com">RyanDillinFelton@gmail.com</a>
+			</div>
+			<div id="linkedin" class="contact-info">
+				<img src="./images/iconmonstr-linkedin-3.svg" style="width: 35px; height: 35px;">
+				<a href="https://www.linkedin.com/in/ryandillinfelton/">LinkedIn</a>
+			</div>
+		</div>
+	</div>
+	<div id="center">
+		<div id="left-arrow arrow"></div>
+		<div id="centerContent">
+		<div id="right-arrow arrow"></div>
+		</div>
+	</div>
+	<div id="cardGrid">
+		<div class="card skill-card" onclick="openCenter(1);">
+			<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 48 48"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm-2 35.86C14.11 38.88 8 32.16 8 24c0-1.23.15-2.43.42-3.58L18 30v2c0 2.21 1.79 4 4 4v3.86zm13.79-5.07C35.28 33.17 33.78 32 32 32h-2v-6c0-1.1-.9-2-2-2H16v-4h4c1.1 0 2-.9 2-2v-4h4c2.21 0 4-1.79 4-4v-.83c5.86 2.37 10 8.11 10 14.83 0 4.16-1.6 7.94-4.21 10.79z"/></svg>
+			<h3>Web Development</h3>
+			<p>I am educated in both front and back end web development. I have skills ranging from SQL and PHP to HTML and CSS, as well as experience building and deploying dynamic websites on the AWS platform using LAMP servers</p>
+		</div>
+		<div class="card skill-card" onclick="openCenter(2);">
+			<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 48 48"><path d="M40 36c2.21 0 3.98-1.79 3.98-4L44 12c0-2.21-1.79-4-4-4H8c-2.21 0-4 1.79-4 4v20c0 2.21 1.79 4 4 4H0v4h48v-4h-8zM8 12h32v20H8V12z"/></svg>
+			<h3>Programming</h3>
+			<p>I’m proficient in C++ and C# programming and have experience in many other OOP languages. Additionally I am also familiar with algorithms and data structures</p>
+		</div>
+		<div class="card skill-card" onclick="openCenter(3);">
+			<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 48 48"><path d="M42 12H6c-2.21 0-4 1.79-4 4v16c0 2.21 1.79 4 4 4h36c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zM22 26h-6v6h-4v-6H6v-4h6v-6h4v6h6v4zm9 4c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm8-6c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
+			<h3>Game Design</h3>
+			<p>I’m educated in many game design principles. I also have experience creating interactive applications and games in the Unity and Unreal 4 game engines.</p>
+		</div>
+	</div>
+</body>
+</html>

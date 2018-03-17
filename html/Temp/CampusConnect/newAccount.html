@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Account </title>
+  <script type="text/javascript" src="validation.js"></script>
+  <script type="text/javascript" src="include/jquery-2.2.0.min.js"></script>
+</head>
+<body>
+  <div data-role="header">
+  <h1>Create Account</h1>
+  <a href="#loginPage">Log In</a>
+</div>
+
+<div data-role="main" class="ui-content">
+  <form name="register">
+    <label for="fname" class="ui-hidden-accessible">Firstname</label>
+    <input type="text" name="fname" id="fname" placeholder="First name">
+    <label for="lname" class="ui-hidden-accessible">Lastname</label>
+    <input type="text" name="lname" id="lname" placeholder="Last name">
+    <label for="email" class="ui-hidden-accessible">Email</label>
+    <input type="text" name="email" id="email" placeholder="email">
+    <label for="password1" class="ui-hidden-accessible">Password</label>
+    <input type="password" name="password1" id="password1" placeholder="password">
+    <label for="password2" class="ui-hidden-accessible">Password</label>
+    <input type="password" name="password2" id="password2" placeholder="password">
+  </form> 
+    <button name="signup" onclick="return validateRegister(document.register);">Sign Up</button>
+  <span id="caMsg"></span>
+  <a href="#loginPage">Go to Login Page</a>
+</div>
+</body>
+</html>
