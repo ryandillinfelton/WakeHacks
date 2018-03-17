@@ -20,7 +20,7 @@
 
 		//get session userID
 		session_start();
-		if (!$userID = $_SESSION["userid"]) {
+		if (!$userID = $_SESSION["userID"]) {
 			echo "not logged in";
 		} else {
 			$sql = "SELECT * FROM requests JOIN users ON requests.userID=users.ID;";
