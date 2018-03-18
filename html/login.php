@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body style="background-color:#020513;">
-	<div class="w3-container w3-display-middle" style="background-color: #e6faff; text-color: #020513; margin-top: 2.5em;border-radius: 15px;">
+	<div class="w3-container w3-display-middle" style="background-color: #e6faff; text-color: #020513; margin-top: 2.5em; margin-bottom: 2.5em;border-radius: 15px;">
 		<h1 class="fs-title">Login Below</h1>
 		<form action="loginAction.php" method="post">
 			<p>Email:<br></p>
