@@ -45,9 +45,40 @@
 			$conn->close();
 
 			//page content
-			echo "<h1>Account page</h1></br>";
-			echo "<h1>$fname $lname </h1></br>";
-			echo "<h2>Location: $country, $state, $city</h2><br><br>";
+
+			//page content
+			echo "<div class=\"w3-content w3-padding\" style=\"max-width:1564px\">";
+
+			echo "  <h2>Account</h2>";
+
+			echo "  <div class=\"w3-row-padding w3-grayscale\">";
+			echo "    <div class=\"w3-col l3 m6 w3-margin-bottom\">";
+			echo "      <h3>$fname $lname</h3>";
+			echo "      <p class=\"w3-opacity\">Voulenteer</p>";
+			echo "    </div>";
+			echo "  </div>";
+
+			echo "  <br>";
+			echo "  <br>";
+
+			echo "  <div class=\"w3-row-padding w3-grayscale\">";
+			echo "  	<div class=\"w3-col l3 m6 w3-margin-bottom\">";
+			echo "		<h4>Location</h4>";
+			echo "	  	<p class=\"w3-opacity\">$country, $state, $city</p>";
+			echo "	</div>";
+			echo "  </div>";
+
+			echo "  <br>";
+			echo "  <br>";
+
+			echo "  <div class=\"w3-row-padding w3-grayscale\">";
+			echo "  	<div class=\"w3-col l3 m6 w3-margin-bottom\">";
+			echo "		<h4>Bio</h4>";
+			echo "	  	<p class=\"w3-opacity\">I love giving back to the community!</p>";
+			echo "	</div>";
+			echo "  </div>";
+
+			echo "</div>";
 		}
 	?>
 </body>
