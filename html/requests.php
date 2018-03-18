@@ -32,6 +32,9 @@
 
 			if ($result = $conn->query($sql)) {
 				//get the first fetched row
+
+				echo "<div class=\"w3-content w3-padding\" style=\"max-width:1564px\">";
+
 			    while($row = $result->fetch_assoc()){
 			    	//set variables with result
 			    	$rid = $row["ID"];
@@ -42,17 +45,23 @@
 				    $fname = $row["FirstName"];
 				    $lname = $row["LastName"];
 
-					echo "<div class=\"w3-container w3-display-middle\" style=\"background-color: #e6faff; text-color: #020513;\">";
-					echo "<h1 class=\"fs-title\" >Register Below<br></h1>";
-				    echo "<a href=requestDetails.php?rid=$rid>";
-				    echo "<div style='border:solid black; margin: auto; width:60%;'>";
-				    echo "<h1>$title by $fname $lname</h1><br>";
-				    echo "<p>$description</p><br>";
-				    echo "<p>$foodPref</p><br>";
-				    echo "<p>$dietaryNeeds</p><br>";
-				    echo "</div>";
+
+					echo "<div class=\"w3-container w3-display-middle\" style=\"background-color: #e6faff; text-color: #020513; margin-top: 2.5em; border-radius: 15px;\">";
+					echo "	<div class=\"w3-row-padding w3-grayscale\">";
+					echo "      <div class=\"w3-col l3 m6 w3-margin-bottom\">";
+					echo "        <h2>$title by $fname $lname</h2>";
+					echo "		<br>";
+					echo "		<p>$description</p>";
+					echo "		<p>$foodPref</p>";
+					echo "		<p>$dietaryNeeds</p>";
+					echo "      </div>";
+					echo "    </div>";
+					echo "</div>";
+
 
 			    }
+
+				echo "</div>";
 
 			    //set variables with result
 			    $title = $row["Title"];
