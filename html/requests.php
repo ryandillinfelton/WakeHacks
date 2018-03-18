@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 	<?php
+    	include("/path/to/file.html");
 		$servername = "localhost";
 		$username = "web";
 		$password = "webpassword";
@@ -22,6 +23,7 @@
 		session_start();
 		if (!$userID = $_SESSION["userID"]) {
 			echo "not logged in";
+			header("Location: login.php");
 		} else {
 			$sql = "SELECT * FROM requests JOIN users ON requests.userID=users.ID;";
 			$result = "";
