@@ -38,6 +38,8 @@
 				    $fname = $row["FirstName"];
 				    $lname = $row["LastName"];
 
+					echo "<div class=\"w3-container w3-display-middle\" style=\"background-color: #e6faff; text-color: #020513;\">";
+					echo "<h1 class=\"fs-title\" >Register Below<br></h1>";
 				    echo "<a href=requestDetails.php?rid=$rid>";
 				    echo "<div style='border:solid black; margin: auto; width:60%;'>";
 				    echo "<h1>$title by $fname $lname</h1><br>";
