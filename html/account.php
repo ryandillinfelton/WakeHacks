@@ -47,6 +47,7 @@
 			//page content
 
 			//page content
+			echo "<link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">";
 			echo "<div class=\"w3-content w3-padding\" style=\"max-width:1564px\">";
 
 			echo "  <h2>Account</h2>";
