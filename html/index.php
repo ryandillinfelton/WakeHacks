@@ -17,8 +17,8 @@
 		<a href="#community" class="w3-bar-item w3-button">Community</a>
 		<a href="#about" class="w3-bar-item w3-button">About</a>
 		<a href="#contact" class="w3-bar-item w3-button">Contact</a>
-	<div class="w3-right w3-hide-small">
-		<a href="login.php" class="w3-bar-item w3-button">Log In</a>
+	<div class="w3-display-right w3-hide-small">
+		<a href="login.php" class="w3-right w3-bar-item w3-button">Log In</a>
 		<a href="register.php" class="w3-bar-item w3-button">Sign Up</a>
 			</div>
     </div>
@@ -51,25 +51,25 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">I love sharing my food</div>
-        <img src="./images/people/P.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Great Pad That</div>
-        <img src="./images/people/P1.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P1.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">I cook for people not for trash can</div>
-        <img src="./images/people/P2.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P2.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Love this community</div>
-        <img src="./images/people/P3.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P3.jpg" alt="House" style="width:100%">
       </div>
     </div>
   </div>
@@ -78,25 +78,25 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Great way to meet new people</div>
-        <img src="./images/people/P4.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P4.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">What's better than foooood!</div>
-        <img src="./images/people/P5.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P5.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Great people</div>
-        <img src="./images/people/P6.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P6.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Can't wait to get my meal</div>
-        <img src="./images/people/P7.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P7.jpg" alt="House" style="width:99%">
       </div>
     </div>
   </div>
@@ -105,25 +105,25 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">I couldn't stand hospital food!</div>
-        <img src="./images/people/P8.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P8.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">LOOOOOOOOOOVE IT</div>
-        <img src="./images/people/P9.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P9.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">My tummy is happy</div>
-        <img src="./images/people/P10.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P10.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Thank Mary. You are a great cook</div>
-        <img src="./images/people/P11.JPG" alt="House" style="width:100%">
+        <img src="./images/people/P11.jpg" alt="House" style="width:100%">
       </div>
     </div>
   </div>
@@ -132,25 +132,25 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Don't recommend ryyan1286.</div>
-        <img src="./images/people/P12.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P12.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Buuuurges are dope</div>
-        <img src="./images/people/P13.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P13.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Hi I have some pierogies to share</div>
-        <img src="./images/people/P14.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P14.jpg" alt="House" style="width:99%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">I'm starving.</div>
-        <img src="./images/people/P15.JPG" alt="House" style="width:99%">
+        <img src="./images/people/P15.jpg" alt="House" style="width:99%">
       </div>
     </div>
   </div>
@@ -168,25 +168,25 @@
 
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./images/J.JPG" alt="John" style="width:100%">
+      <img src="./images/J.jpg" alt="John" style="width:100%">
       <h3>Julia Debecka</h3>
       <p class="w3-opacity">CEO & Web contributor</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
 		<div class="w3-col l3 m6 w3-margin-bottom">
-			<img src="./images/P.JPG" alt="Mike" style="width:100%">
+			<img src="./images/P.jpg" alt="Mike" style="width:100%">
 			<h3>Paulie Jesukiewicz</h3>
 			<p class="w3-opacity">CEO & Web Contributor</p>
 			<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
 		</div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./images/M.JPG" alt="Jane" style="width:100%">
+      <img src="./images/M.jpg" alt="Jane" style="width:100%">
       <h3>Matthew Olker</h3>
       <p class="w3-opacity">Designer</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./images/R.JPG" alt="Dan" style="width:100%">
+      <img src="./images/R.jpg" alt="Dan" style="width:100%">
       <h3>Ryan Felton</h3>
       <p class="w3-opacity">CEO & Founder</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
@@ -195,8 +195,8 @@
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-16" id="contact">
-    <h3 class="w3-border-bottom w3-padding-16"><img src="./images/contact.png" height="60px;" width="200px;"></h3>
-    <p>Help us improve!</p>
+    <h3 class=" w3-padding-16"><img src="./images/contact.png" height="60px;" width="200px;"></h3>
+    <p class="w3-hide-medium w3-text-black w3-large w3w3-display-middle">Help us improve!</p>
     <form action="/action_page.php" target="_blank">
       <input class="w3-input" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
