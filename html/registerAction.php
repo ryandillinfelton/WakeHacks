@@ -4,7 +4,7 @@ $username = "web";
 $password = "webpassword";
 $dbname = "foodme";
 
-$email = $first = $last = $state = $city = $streetAddress = $userPassword = "";
+$bio = $email = $first = $last = $state = $city = $streetAddress = $userPassword = "";
 
 // Get post values
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
