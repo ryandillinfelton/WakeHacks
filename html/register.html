@@ -8,15 +8,18 @@
 </head>
 <body style="background-color:#020513;">
 
-	<div class="w3-container w3-display-middle" style="background-color: #e6faff; text-color: #020513;">
+	<div class="w3-container w3-display-middle" style="background-color: #e6faff; text-color: #020513; margin-top: 2.5em;">
 		<h1 class="fs-title" >Register Below<br></h1>
-		<form action="registerAction.php">
+		<form action="registerAction.php" method="post">
+			<p>Account Info<br></p>
+			<p>Email:<br></p>
+			<input type="text" name="email"><br>
+			<p>Password:<br></p>
+			<input type="password" name="password"><br>
 			<p>First name:<br></p>
 			<input type="text" name="first"><br>
 			<p>Last name:<br></p>
 			<input type="text" name="last"><br>
-			<p>Email:<br></p>
-			<input type="text" name="email"><br>
 			<p>State:<br></p>
 			<select name="state"><br>
 				<option value="AL">Alabama</option>
@@ -75,8 +78,9 @@
 			<input type="text" name="city"><br>
 			<p>Street Address:<br></p>
 			<input type="text" name="streetAddress"><br>
-			<p>Zip Code:<br></p>
-			<input type="text" name="zipcode"><br><br>
+			<p>Bio:<br></p>
+			<input type="textarea" name="bio"><br><br>
+			<input type="submit">
 			</form>
 	</div>
 </body>
