@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Craigslist</title>
+<title>FoodMe</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -43,47 +43,126 @@
 
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="community">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Community</h3>
-		<p>Every volunteer and donation makes a difference. Join us to help families build stronger foundations for the future in your community and around the world.</p
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><img src="./images/community.png" height="80px;" width="300px;"></h3>
+		<p class="w3-hide-medium w3-text-black w3-large w3w3-display-middle">When we began we noticed there were too many people who weren't able to cook and provide for themselves. Since we've become a part of the community, not only has everyone become much closer, but also those who couldn't cook for themselves have still been able to enjoy a nice home cooked meal. </p>
 	</div>
 
 	<div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <div class="w3-display-topleft w3-black w3-padding">I love sharing my food</div>
         <img src="./images/people/P.JPG" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <div class="w3-display-topleft w3-black w3-padding">Great Pad That</div>
         <img src="./images/people/P1.JPG" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <div class="w3-display-topleft w3-black w3-padding">I cook for people not for trash can</div>
         <img src="./images/people/P2.JPG" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <div class="w3-display-topleft w3-black w3-padding">Love this community</div>
         <img src="./images/people/P3.JPG" alt="House" style="width:100%">
       </div>
     </div>
   </div>
 
+	<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Great way to meet new people</div>
+        <img src="./images/people/P4.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">What's better than foooood!</div>
+        <img src="./images/people/P5.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Great people</div>
+        <img src="./images/people/P6.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Can't wait to get my meal</div>
+        <img src="./images/people/P7.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
 
+	<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">I couldn't stand hospital food!</div>
+        <img src="./images/people/P8.JPG" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">LOOOOOOOOOOVE IT</div>
+        <img src="./images/people/P9.JPG" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">My tummy is happy</div>
+        <img src="./images/people/P10.JPG" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Thank Mary. You are a great cook</div>
+        <img src="./images/people/P11.JPG" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+	<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Don't recommend ryyan1286.</div>
+        <img src="./images/people/P12.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Buuuurges are dope</div>
+        <img src="./images/people/P13.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Hi I have some pierogies to share</div>
+        <img src="./images/people/P14.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">I'm starving.</div>
+        <img src="./images/people/P15.JPG" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
 
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><img src="./images/about.png" height="60px;" width="200px;"></h3>
+    <p class="w3-hide-medium w3-text-black w3-large w3w3-display-middle">
+			FoodMe is an app similar to postmates or other food delivery services but our twist is we provide food for people who are no longer able to make their own food. Our users are either people who can't provide for themselves, or people who decide they can help provide for others.
+			The way our platform works is, people who need help getting food sign up and make a request explaining their reasoning and eating restrictions, and then other users who signed up to provide for those people find one in their area and can accept the request to bring that person food.
+			This helps to create a tighter and happier community where everyone looks out for each other. Why throw away half your dinner when instead you could give it to someone in need?
     </p>
   </div>
 
@@ -95,19 +174,19 @@
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
 		<div class="w3-col l3 m6 w3-margin-bottom">
-			<img src="./images/P.jpg" alt="Mike" style="width:100%">
+			<img src="./images/P.JPG" alt="Mike" style="width:100%">
 			<h3>Paulie Jesukiewicz</h3>
 			<p class="w3-opacity">CEO & Web Contributor</p>
 			<p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
 		</div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./images/M.jpg" alt="Jane" style="width:100%">
+      <img src="./images/M.JPG" alt="Jane" style="width:100%">
       <h3>Matthew Olker</h3>
       <p class="w3-opacity">Designer</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="./images/R.jpg" alt="Dan" style="width:100%">
+      <img src="./images/R.JPG" alt="Dan" style="width:100%">
       <h3>Ryan Felton</h3>
       <p class="w3-opacity">CEO & Founder</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
@@ -115,8 +194,8 @@
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+  <div class="w3-container w3-padding-16" id="contact">
+    <h3 class="w3-border-bottom w3-padding-16"><img src="./images/contact.png" height="60px;" width="200px;"></h3>
     <p>Help us improve!</p>
     <form action="/action_page.php" target="_blank">
       <input class="w3-input" type="text" placeholder="Name" required name="Name">
@@ -142,7 +221,7 @@
 <script>
 function myMap()
 {
-  myCenter=new google.maps.LatLng(35.9799, 78.5097);
+  myCenter=new google.maps.LatLng(35.9799, -78.5097);
   var mapOptions= {
     center:myCenter,
     zoom:12, scrollwheel: false, draggable: false,
