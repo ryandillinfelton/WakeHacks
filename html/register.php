@@ -8,7 +8,7 @@
 </head>
 <body style="background-color:#020513;">
 
-	<div class="w3-container w3-display-middle" style="background-color: #e6faff; text-color: #020513; margin-top: 2.5em;">
+	<div class="w3-container w3-display-middle" style="background-color: #e6faff; text-color: #020513; margin-top: 2.5em; border-radius: 15px;">
 		<h1 class="fs-title" >Register Below<br></h1>
 		<form action="registerAction.php" method="post">
 			<p>Account Info<br></p>
@@ -82,6 +82,8 @@
 			<input type="textarea" name="bio"><br><br>
 			<input type="submit">
 			</form>
+			<br>
+			<br>
 	</div>
 </body>
 </html>
